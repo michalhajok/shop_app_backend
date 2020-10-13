@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +18,8 @@
     "http-status": "^1.4.2",
     "mongoose": "^5.10.3",
     "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "10.16.2"
   }
 }
